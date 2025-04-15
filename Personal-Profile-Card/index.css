@@ -1,0 +1,58 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: sans-serif ;
+}
+main{
+  width: 40% ;
+  margin: 70px auto ;
+  border: #2973B2 solid 3px ;
+  padding: 15px ;
+  border-radius: 10px ;
+}
+.underline{
+  width: 40px ;
+  height: 3px ;
+  background-color: #2973B2 ;
+  margin-bottom: 50px ;
+  display: inline-block ;
+}
+.name{
+  color: #2973B2 ;
+}
+.png{
+  width: 30px ;
+  display: inline-block ;
+  margin: 0 10px 0 0 ;
+}
+.p{
+  display: inline-block ;
+  position: relative ;
+  bottom: 8px ;
+  margin: 0 ;
+}
+.pngs{
+}
+.home{
+  background-color: #2973B2 ;
+  color: white ;
+  height: 30px ;
+  border-radius: 15px ;
+  margin: 30px 5px 0 0 ;
+}
+.home-png{
+  background-color: #D4C9BE ;
+  border-radius: 50% ;
+}
+.my-img{
+  width: 200px ;
+  height: 200px ;
+  border-radius: 50% ;
+  border: #2973B2 solid 8px;
+  outline: none ;
+  display: inline-block ;
+  position: absolute ;
+  right: 410px ;
+  top: 95px ;
+}
