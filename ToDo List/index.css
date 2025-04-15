@@ -1,0 +1,49 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+  background-color: #FDFAF6 ;
+  font-family: "Dancing Script", cursive;
+}
+h1{
+
+  margin: 2rem 0 2rem 0;
+  font-size: 3.5rem ;
+}
+section{
+  text-align: center ;
+  margin-bottom: 2rem ;
+}
+input{
+  width: 20% ;
+  height: 1rem ;
+  padding:1.5rem ;
+  font-size: 1.5rem ;
+  border-style: none ;
+  border-radius: 0.5rem ;
+  margin-right: 1rem ;
+  outline: none ;
+  border: blue solid;
+}
+
+input:focus{
+  border: blue solid;
+}
+button{
+  width: 3rem ;
+  height: 3rem ;
+  border-style: none ;
+  border-radius: 0.5rem ;
+  background-color: rgba(1, 24, 216, 0.8);
+  color: white ;
+  font-size: 1.5rem ;
+}
+div{
+  font-size: 2rem ;
+  text-align: center ;
+
+}
+
+.delete{
+  background-color: rgba(229, 32, 32, 0.8)
+}
