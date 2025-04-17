@@ -1,0 +1,21 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+  font-family: sans-serif ;
+  background-color: black ;
+  color: aqua ;
+  text-align: center ;
+}
+h1{
+  margin: 3rem ;
+}
+button{
+  margin: 2rem ;
+  background-color: grey ;
+  height: 30px ;
+  width: 100px ;
+  border-style: none ;
+  border-radius: 30px ;
+  cursor: pointer ;
+}
