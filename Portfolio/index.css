@@ -194,4 +194,23 @@ footer {
   .nav-links{
     display: none ;
   }
+
+  .profilePicture{
+    border-radius: 50% ;
+    margin: auto ;
+    text-align: center ;
+    position:static;
+  }
+  #home{
+    display: flex ;
+    flex-direction: column ;
+  }
+  h1{
+    font-size: 3rem ;
+    width: 100% ;
+  }
+  section, .contact-form{
+    text-align: center ;
+    margin: auto ;
+  }
 }

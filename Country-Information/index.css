@@ -44,3 +44,8 @@ img{
 h2{
   line-height: 2 ;
 }
+#map{
+  width: 90% ;
+  height: 30rem ;
+  margin: auto ;
+}
