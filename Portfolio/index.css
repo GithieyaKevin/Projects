@@ -113,13 +113,10 @@ section {
   padding: 80px 40px;
 }
 
-/* .skills-grid,
-.projects-grid,
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-} */
+ .skills-grid{
+   display: grid ;
+   grid-template-columns: auto auto auto ;
+ }
 
 .card {
   background: #1A1C20;
@@ -127,7 +124,6 @@ section {
   margin: 2rem ;
   border: 1px solid #2C2F35;
   border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -213,4 +209,26 @@ footer {
     text-align: center ;
     margin: auto ;
   }
+}
+.download{
+  width: 3rem ;
+  display: block ;
+  text-align: center ;
+  margin: 0 auto ;
+}
+.btn2{
+  background-color: #00BFA6;
+  color:#0F1115;
+  display: inline-block;
+  width: 7rem ;
+  height: 4.5rem ;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 20px;
+  text-align: center ;
+  cursor: pointer ;
+}
+.btn2:hover{
+  background-color: #1DE9B6;
 }
