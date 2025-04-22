@@ -21,8 +21,9 @@ body {
   display: block ;
   width: 3.3rem ;
   height: 0.3rem ;
-  margin: 0.6rem ;
+  margin: 0.5rem ;
   background-color: white ;
+  border-radius: 0.5rem ;
 }
 h1{
   font-size: 3rem ;
@@ -208,6 +209,10 @@ footer {
   section, .contact-form{
     text-align: center ;
     margin: auto ;
+  }
+  .skills-grid{
+    display: grid ;
+    grid-template-columns: auto ;
   }
 }
 .download{
